@@ -27,12 +27,18 @@ body {
     padding: 0 10%;
     /* vien ngoai */
     margin: 0;
-    background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/fs/4e0cc328008799.56e41b35c50a5.gif"   );
+    background-image: url("https://thumbs.dreamstime.com/b/wood-textured-backgrounds-tuscany-landscape-37140599.jpg"   );
     background-size: cover;
     overflow: hidden;
+
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
 }
 
-.avatar {
+.avatar img {
     width: 250px;
     height: 250px;
     border-radius: 50%;
